@@ -822,27 +822,6 @@ main {
   filter: saturate(0.88) contrast(1.02);
 }
 
-.floating-note {
-  position: absolute;
-  z-index: 2;
-  right: -1%;
-  bottom: 7%;
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  padding: 0;
-  color: #e6fffb;
-  font-size: 0.77rem;
-  font-weight: 600;
-  line-height: 1.4;
-  text-shadow: 0 2px 8px rgba(3, 14, 24, 0.9);
-}
-
-.note-star {
-  color: #ffd27d;
-  font-size: 1.5rem;
-}
-
 .art-caption {
   position: absolute;
   z-index: 2;
@@ -1138,11 +1117,6 @@ footer {
   .art-caption {
     right: 0;
     top: 1%;
-  }
-
-  .floating-note {
-    right: 2%;
-    bottom: 3%;
   }
 
   .hero-meta {
